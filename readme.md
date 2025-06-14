@@ -49,7 +49,6 @@ You have to calibrate the device before using it. To do this, press and hold the
 https://github.com/user-attachments/assets/52e96599-513a-4408-a5a7-aa2ec4c81bca
 
 It will also broadcast the airspeed data over BLE, so you can connect it to your smartphone or other BLE devices to monitor the airspeed in real-time. Download Bluefruit Connect app from the App Store or Google Play, and connect to the device. Once connected, click UART to see the airspeed data in real-time. You can also export the history data to a CSV file for further analysis in this page.
-![Bluefruit Connect](images/phone.png)
 
 ## Assembly
 
@@ -66,6 +65,8 @@ Once you have tested the software and everything works, you can assemble the dev
 5. Wire the microcontroller to the stemma qt hub, the OLED display, and the LED driver. Don't forget the reset pin jumper wire.
 
 6. Mount the pitot tube to the front side of the case with the m3x6 screw and nut. Make sure the pitot tube is aligned with the front opening of the case.
+   
+![assembly](images/assembly.png)
 
 ## What else can I do with it?
 
