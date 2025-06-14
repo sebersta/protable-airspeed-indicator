@@ -46,6 +46,8 @@ After uploading the code, you can power the device by connecting the battery. Pr
 
 You have to calibrate the device before using it. To do this, press and hold the button for 3 seconds while staying still in a indoor environment. The device will average the readings for a few seconds and set the current pressure as the baseline static pressure. This is important for accurate airspeed readings, as the static pressure can be off due to electronic noise or other factors.
 
+https://github.com/user-attachments/assets/52e96599-513a-4408-a5a7-aa2ec4c81bca
+
 It will also broadcast the airspeed data over BLE, so you can connect it to your smartphone or other BLE devices to monitor the airspeed in real-time. Download Bluefruit Connect app from the App Store or Google Play, and connect to the device. Once connected, click UART to see the airspeed data in real-time. You can also export the history data to a CSV file for further analysis in this page.
 ![Bluefruit Connect](images/phone.png)
 
